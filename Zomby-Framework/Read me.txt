@@ -1,0 +1,20 @@
+Configuration of the framework Zomby
+
+1 Specify the path of the Android tools adb using the system environment variable ADB_PATH
+
+	e.g.: 	ADB_PATH = ~/android-sdk/plattform-tools/
+		export ADB_PATH
+
+2 Setting up web server
+
+	Option 1: install ZombyWebservice of an Application Server (server/ZombyWebservice/dist/ZombyWebservice.war)
+
+	Option 2: run gradle-script (gradle server/ZombyWebservice/jettyRun)
+
+3 Insert Zomby as project and declare it as library (is Library)
+
+4 Add Zomby as library to a test project
+
+5 Add permission android.permission.INTERNET to the test project and to the tested Android project
+
+6 Ready!
